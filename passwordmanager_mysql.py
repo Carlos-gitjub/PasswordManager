@@ -16,7 +16,7 @@ except mysql.connector.Error as err:
   raise                                                    #"raise" lo he puesto para que el programa no sga ejecutandose si hay un error
 
 #definición de funciones
-def sacar_contraseña():
+def sacar_contrasenia():
     name = input("introduce el nombre de la app en minusculas: ")
     cursor = db.cursor()
     cursor.execute("SELECT password FROM cuentas WHERE app_name = '" + name +"';")
