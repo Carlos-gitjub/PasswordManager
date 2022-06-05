@@ -43,7 +43,7 @@ opcion= int(input("Ingresa una opcion: "))
 if opcion==1:
     insertar_datos_cuenta()
 elif opcion ==2:
-    sacar_contraseña()
+    sacar_contrasenia()
 else: 
     print("No has introducido ninguna opcion")
 
