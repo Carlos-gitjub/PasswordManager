@@ -1,2 +1,2 @@
 # password-manager-Python-MySQL-
-python script for managing and accesing passwords for different services
+Script with python for managing and accesing passwords for different services.
